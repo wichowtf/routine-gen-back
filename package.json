@@ -1,0 +1,31 @@
+{
+  "name": "generate-plan-pdf-back",
+  "version": "1.0.0",
+  "description": "Back-end del sistema para generar los pdf de entrenamientos de los pacientes en Science and Health",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScienceAndHealthDev/ScienceAndHealthDev-GenerateTrainingPlanPDF-Back.git"
+  },
+  "author": "Emmanuel Jimenez, Miguel Sanchez, Luis Arriaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScienceAndHealthDev/ScienceAndHealthDev-GenerateTrainingPlanPDF-Back/issues"
+  },
+  "homepage": "https://github.com/ScienceAndHealthDev/ScienceAndHealthDev-GenerateTrainingPlanPDF-Back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
